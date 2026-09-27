@@ -1,0 +1,190 @@
+{
+  "Random Forest (Week 6 candidate)": {
+    "model_name": "Random Forest",
+    "n_splits": 4,
+    "fold_results": [
+      {
+        "fold": 1,
+        "train_rows": 1894,
+        "test_rows": 710,
+        "test_date_range": [
+          "2025-08-07",
+          "2025-10-22"
+        ],
+        "accuracy": 0.6281690140845071,
+        "precision": 0.6147757255936676,
+        "recall": 0.6638176638176638,
+        "f1_score": 0.6383561643835617,
+        "roc_auc": 0.6666746026077502
+      },
+      {
+        "fold": 2,
+        "train_rows": 2604,
+        "test_rows": 710,
+        "test_date_range": [
+          "2025-10-22",
+          "2026-01-20"
+        ],
+        "accuracy": 0.6070422535211267,
+        "precision": 0.6143958868894601,
+        "recall": 0.6494565217391305,
+        "f1_score": 0.631439894319683,
+        "roc_auc": 0.6422737096364098
+      },
+      {
+        "fold": 3,
+        "train_rows": 3314,
+        "test_rows": 710,
+        "test_date_range": [
+          "2026-01-21",
+          "2026-04-09"
+        ],
+        "accuracy": 0.6,
+        "precision": 0.6121883656509696,
+        "recall": 0.6054794520547945,
+        "f1_score": 0.6088154269972452,
+        "roc_auc": 0.6198054397458806
+      },
+      {
+        "fold": 4,
+        "train_rows": 4024,
+        "test_rows": 713,
+        "test_date_range": [
+          "2026-04-09",
+          "2026-06-30"
+        ],
+        "accuracy": 0.6227208976157083,
+        "precision": 0.6284153005464481,
+        "recall": 0.6336088154269972,
+        "f1_score": 0.6310013717421125,
+        "roc_auc": 0.6685792994883903
+      }
+    ],
+    "summary": {
+      "accuracy": {
+        "mean": 0.6145,
+        "std": 0.0114,
+        "min": 0.6,
+        "max": 0.6282
+      },
+      "precision": {
+        "mean": 0.6174,
+        "std": 0.0064,
+        "min": 0.6122,
+        "max": 0.6284
+      },
+      "recall": {
+        "mean": 0.6381,
+        "std": 0.0216,
+        "min": 0.6055,
+        "max": 0.6638
+      },
+      "f1_score": {
+        "mean": 0.6274,
+        "std": 0.0111,
+        "min": 0.6088,
+        "max": 0.6384
+      },
+      "roc_auc": {
+        "mean": 0.6493,
+        "std": 0.02,
+        "min": 0.6198,
+        "max": 0.6686
+      }
+    }
+  },
+  "Logistic Regression (Week 5 baseline)": {
+    "model_name": "Logistic Regression",
+    "n_splits": 4,
+    "fold_results": [
+      {
+        "fold": 1,
+        "train_rows": 1894,
+        "test_rows": 710,
+        "test_date_range": [
+          "2025-08-07",
+          "2025-10-22"
+        ],
+        "accuracy": 0.6295774647887324,
+        "precision": 0.6195652173913043,
+        "recall": 0.6495726495726496,
+        "f1_score": 0.6342141863699583,
+        "roc_auc": 0.6690077692863208
+      },
+      {
+        "fold": 2,
+        "train_rows": 2604,
+        "test_rows": 710,
+        "test_date_range": [
+          "2025-10-22",
+          "2026-01-20"
+        ],
+        "accuracy": 0.6,
+        "precision": 0.6160220994475138,
+        "recall": 0.6059782608695652,
+        "f1_score": 0.6109589041095891,
+        "roc_auc": 0.6516495041952708
+      },
+      {
+        "fold": 3,
+        "train_rows": 3314,
+        "test_rows": 710,
+        "test_date_range": [
+          "2026-01-21",
+          "2026-04-09"
+        ],
+        "accuracy": 0.6154929577464788,
+        "precision": 0.6345029239766082,
+        "recall": 0.5945205479452055,
+        "f1_score": 0.6138613861386139,
+        "roc_auc": 0.646416517768513
+      },
+      {
+        "fold": 4,
+        "train_rows": 4024,
+        "test_rows": 713,
+        "test_date_range": [
+          "2026-04-09",
+          "2026-06-30"
+        ],
+        "accuracy": 0.6255259467040674,
+        "precision": 0.6379310344827587,
+        "recall": 0.6115702479338843,
+        "f1_score": 0.6244725738396625,
+        "roc_auc": 0.6701770956316411
+      }
+    ],
+    "summary": {
+      "accuracy": {
+        "mean": 0.6176,
+        "std": 0.0114,
+        "min": 0.6,
+        "max": 0.6296
+      },
+      "precision": {
+        "mean": 0.627,
+        "std": 0.0094,
+        "min": 0.616,
+        "max": 0.6379
+      },
+      "recall": {
+        "mean": 0.6154,
+        "std": 0.0207,
+        "min": 0.5945,
+        "max": 0.6496
+      },
+      "f1_score": {
+        "mean": 0.6209,
+        "std": 0.0092,
+        "min": 0.611,
+        "max": 0.6342
+      },
+      "roc_auc": {
+        "mean": 0.6593,
+        "std": 0.0105,
+        "min": 0.6464,
+        "max": 0.6702
+      }
+    }
+  }
+}

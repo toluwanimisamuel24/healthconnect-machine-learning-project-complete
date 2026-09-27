@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Editor
+.vscode/
+.idea/
+
+# Note: data/processed/ and models/ ARE tracked (not ignored) in this repo,
+# deliberately -- they hold the Week 5 pipeline's committed output snapshot
+# (processed dataset, validation report, trained baseline artifact, metrics)
+# as reviewable evidence, alongside the code that regenerates them.

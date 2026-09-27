@@ -1,0 +1,146 @@
+[
+  {
+    "predicted_probability": 0.7739413960290105,
+    "top_features_increasing_risk": [
+      {
+        "feature": "booking_lead_days",
+        "contribution": 0.1019
+      },
+      {
+        "feature": "booking_lead_bucket_30+ days",
+        "contribution": 0.0495
+      },
+      {
+        "feature": "distance_to_clinic_km",
+        "contribution": 0.0216
+      },
+      {
+        "feature": "reminder_channel_No Reminder Sent",
+        "contribution": 0.0172
+      },
+      {
+        "feature": "reminder_sent_Yes",
+        "contribution": 0.0145
+      }
+    ],
+    "top_features_decreasing_risk": [
+      {
+        "feature": "appointment_type_General Consultation",
+        "contribution": -0.0049
+      },
+      {
+        "feature": "appointment_day_Wednesday",
+        "contribution": -0.003
+      },
+      {
+        "feature": "age_group_35-44",
+        "contribution": -0.0013
+      },
+      {
+        "feature": "appointment_type_Specialist Consultation",
+        "contribution": -0.001
+      },
+      {
+        "feature": "appointment_type_Follow-up",
+        "contribution": -0.001
+      }
+    ],
+    "appointment_id": "HC-00776"
+  },
+  {
+    "predicted_probability": 0.75753031387907,
+    "top_features_increasing_risk": [
+      {
+        "feature": "booking_lead_days",
+        "contribution": 0.0927
+      },
+      {
+        "feature": "booking_lead_bucket_30+ days",
+        "contribution": 0.058
+      },
+      {
+        "feature": "reminder_channel_No Reminder Sent",
+        "contribution": 0.0196
+      },
+      {
+        "feature": "reminder_sent_Yes",
+        "contribution": 0.0186
+      },
+      {
+        "feature": "reminder_channel_SMS",
+        "contribution": 0.0111
+      }
+    ],
+    "top_features_decreasing_risk": [
+      {
+        "feature": "age_group_35-44",
+        "contribution": -0.0015
+      },
+      {
+        "feature": "appointment_day_Wednesday",
+        "contribution": -0.0012
+      },
+      {
+        "feature": "age_group_25-34",
+        "contribution": -0.001
+      },
+      {
+        "feature": "reminder_channel_WhatsApp",
+        "contribution": -0.0008
+      },
+      {
+        "feature": "appointment_type_Specialist Consultation",
+        "contribution": -0.0007
+      }
+    ],
+    "appointment_id": "HC-00265"
+  },
+  {
+    "predicted_probability": 0.7574579251940735,
+    "top_features_increasing_risk": [
+      {
+        "feature": "booking_lead_days",
+        "contribution": 0.0988
+      },
+      {
+        "feature": "booking_lead_bucket_30+ days",
+        "contribution": 0.0609
+      },
+      {
+        "feature": "reminder_channel_No Reminder Sent",
+        "contribution": 0.0239
+      },
+      {
+        "feature": "reminder_sent_Yes",
+        "contribution": 0.0188
+      },
+      {
+        "feature": "reminder_channel_SMS",
+        "contribution": 0.0112
+      }
+    ],
+    "top_features_decreasing_risk": [
+      {
+        "feature": "distance_to_clinic_km",
+        "contribution": -0.007
+      },
+      {
+        "feature": "appointment_type_General Consultation",
+        "contribution": -0.0035
+      },
+      {
+        "feature": "appointment_type_Follow-up",
+        "contribution": -0.0032
+      },
+      {
+        "feature": "appointment_day_Wednesday",
+        "contribution": -0.0023
+      },
+      {
+        "feature": "appointment_day_Thursday",
+        "contribution": -0.0009
+      }
+    ],
+    "appointment_id": "HC-02690"
+  }
+]

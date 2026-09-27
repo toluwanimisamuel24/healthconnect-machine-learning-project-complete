@@ -1,0 +1,35 @@
+{
+  "row_count": 5000,
+  "column_count": 18,
+  "missing_values": {
+    "reminder_channel": {
+      "missing_count": 1366,
+      "missing_pct": 27.32
+    },
+    "distance_to_clinic_km": {
+      "missing_count": 90,
+      "missing_pct": 1.8
+    },
+    "waiting_time_minutes": {
+      "missing_count": 60,
+      "missing_pct": 1.2
+    }
+  },
+  "duplicates": {
+    "duplicate_rows": 0,
+    "duplicate_appointment_ids": 0
+  },
+  "waiting_time_leakage": {
+    "checked": true,
+    "not_attended_rows": 2686,
+    "rows_with_unexpected_waiting_time": 2647,
+    "leakage_confirmed": true
+  },
+  "historical_field_consistency": {
+    "checked": true,
+    "patients_checked": 1696,
+    "patients_chronologically_consistent": 701,
+    "consistency_rate_pct": 41.3,
+    "conclusion": "Raw previous_appointments/previous_no_shows are not reliably point-in-time correct -- pipeline recomputes these fields instead of using them as provided."
+  }
+}

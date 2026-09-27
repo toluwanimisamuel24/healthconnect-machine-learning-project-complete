@@ -1,0 +1,62 @@
+{
+  "candidates_evaluated": [
+    "Logistic Regression (Week 5 baseline)",
+    "Random Forest",
+    "Gradient Boosting"
+  ],
+  "selection_metric": "recall",
+  "selected_candidate": "Random Forest",
+  "results": {
+    "Logistic Regression (Week 5 baseline)": {
+      "accuracy": 0.6213080168776371,
+      "precision": 0.6302521008403361,
+      "recall": 0.6211180124223602,
+      "f1_score": 0.6256517205422315,
+      "roc_auc": 0.6675794207351009,
+      "confusion_matrix": [
+        [
+          289,
+          176
+        ],
+        [
+          183,
+          300
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.6160337552742616,
+      "precision": 0.6159844054580896,
+      "recall": 0.6542443064182195,
+      "f1_score": 0.6345381526104418,
+      "roc_auc": 0.6663193748747747,
+      "confusion_matrix": [
+        [
+          268,
+          197
+        ],
+        [
+          167,
+          316
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.5981012658227848,
+      "precision": 0.6,
+      "recall": 0.6335403726708074,
+      "f1_score": 0.6163141993957704,
+      "roc_auc": 0.6430908969478395,
+      "confusion_matrix": [
+        [
+          261,
+          204
+        ],
+        [
+          177,
+          306
+        ]
+      ]
+    }
+  }
+}
